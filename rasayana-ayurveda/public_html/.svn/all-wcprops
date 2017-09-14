@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/repos/gs/!svn/ver/47/trunk
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/repos/gs/!svn/ver/1/trunk/.htaccess
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/repos/gs/!svn/ver/1/trunk/index.php
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repos/gs/!svn/ver/7/trunk/favicon.ico
+END

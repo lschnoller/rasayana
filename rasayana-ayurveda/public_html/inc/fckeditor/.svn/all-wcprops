@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor
+END
+fckeditor.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckeditor.php
+END
+fckpackager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckpackager.xml
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/license.txt
+END
+fcktemplates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fcktemplates.xml
+END
+fckconfig.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckconfig.js
+END
+fckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckeditor.js
+END
+fckstyles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckstyles.xml
+END
+fckeditor2.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckeditor2.js
+END
+fckeditor_php4.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckeditor_php4.php
+END
+fckeditor_php5.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/gs/!svn/ver/1/trunk/inc/fckeditor/fckeditor_php5.php
+END
