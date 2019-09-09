@@ -1,3 +1,17 @@
+<script type="text/javascript">
+    var onloadCallback = function () {
+      grecaptcha.render('recaptcha-element', {
+        'sitekey': '6Lf8dLcUAAAAANU7EVBopY075A3IRwZIwlTZY8d5'
+      });
+    };
+    var submitForm = function () {
+      var response = grecaptcha.getResponse();
+      if(response.length > 0 )
+        document.forms[0].submit();
+      else
+        alert("Por favor completar el ReCaptcha para poder enviar el formulario.");
+    };
+  </script>
 <div id="bd">
 	<style>
 		<!--
@@ -59,9 +73,16 @@
 	   			<div class="cleft green">Consulta :</div>
 	   			<div class="cright"><textarea name="mensaje"><?php echo set_value('mensaje'); ?></textarea></div>
 	   		</div>
+        <div class=" clear"></div>
+        <div>
+          <div class="cleft green">Recaptcha :</div>
+          <div class="cright">
+            <div id="recaptcha-element"></div>
+          </div>
+        </div>
 		</div>
 		<div class="clear"></div>
-   		<div style="margin: 20px 0 20px 680px; cursor:pointer;"><a class="mas" onclick="document.forms[0].submit();" style="width:50px">ENVIAR</a></div>
+   		<div style="margin: 20px 0 20px 680px; cursor:pointer;"><a class="mas" onclick="submitForm()" style="width:50px">ENVIAR</a></div>
    		</form>
    		<?php }?>
    		<div><p style="text-align: center;">
@@ -70,7 +91,9 @@
 	   		<p> </p>
    		</div>
 	</div>
-   
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+</script>
 <!-- Google Code for Contactenos Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
